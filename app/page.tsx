@@ -1,9 +1,11 @@
 import Image from "next/image";
-
+import Footer from "../components/footer"
+import SchoolsSlider from "../components/card"
 export default function Home() {
   return (
     <>
-    <h1 className="text-3xl">Hello World</h1>
+    <SchoolsSlider></SchoolsSlider>
+    <Footer></Footer>
     </>
   );
 }
