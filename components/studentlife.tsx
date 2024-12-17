@@ -12,7 +12,7 @@ export type STUDENTLIFEType = {
 
 const STUDENTLIFE:NextPage<STUDENTLIFEType> = ({ className="", onClose, onOutsideClick  }) => {
   	return (
-    		<div className={`w-72 relative h-[445px] max-w-full max-h-full overflow-auto text-center text-base text-darkslateblue font-body-headigs ${className}`}>
+    		<div className={`w-72 relative h-[445px] max-w-full max-h-full overflow-auto text-center text-base text-slateblue font-body-headigs ${className}`}>
       			<div className="absolute top-[27px] left-[27px] shadow-[0px_4px_20px_rgba(0,_0,_0,_0.25)] rounded-xl bg-white w-[234px] h-[391px] flex flex-col items-start justify-start py-4 px-5 box-border">
         				<div className="self-stretch rounded-xl flex flex-row items-center justify-center py-4 px-5">
           					<div className="flex-1 relative font-semibold">Events @ RPSU</div>

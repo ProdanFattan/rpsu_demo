@@ -1,11 +1,13 @@
-import Image from "next/image";
-import Footer from "../components/footer"
-import SchoolsSlider from "../components/card"
+import Navbar from "@/components/Navbar";
+import Admissions from "@/components/admissions";
+import NavBar from "./side/page";
+import NavBAr from "@/components/dropdown";
 export default function Home() {
   return (
     <>
-    <SchoolsSlider></SchoolsSlider>
-    <Footer></Footer>
+    {/* <Admissions></Admissions> */}
+    {/* <NavBAr></NavBAr> */}
+    <Navbar></Navbar>
     </>
   );
 }

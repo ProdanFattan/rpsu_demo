@@ -10,15 +10,12 @@ export default {
 "theme": {
     "extend": {
         "colors": {
-            "gray": {
-                "100": "#fafafa",
-                "200": "rgba(0, 0, 0, 0.5)"
-            },
+            navbg: "#fafafa",
             "brown": "#982536",
             "white": "#fff",
             "darkslategray": "#434141",
             "gainsboro": "#e7e7e7",
-            "darkslateblue": "#3c2b71",
+            "slateblue": "#3c2b71",
             "black": "#000",
             "whitesmoke": "#f4f4f4"
         },

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Footer:NextPage = () => {
   	return (
-    		<div className="w-full relative h-[550px] text-left text-sm text-gainsboro font-raleway bg-blue-700">
+    		<div className="w-full relative h-[550px] text-left text-sm text-gainsboro font-raleway bg-slateblue">
       			{/* <Image className="absolute top-[0px] left-[-126px] w-[1699px] h-[550px]" width={1699} height={550} alt="" src="Rectangle 12.svg" /> */}
       			<div className="absolute top-[486px] left-[454.84px] w-[546.2px] flex flex-row items-center justify-center p-2.5 box-border text-center text-white">
         				<div className="relative font-light">Copyright © RPSU 2014-2023. Designed By Software Development Team, RPSU</div>
